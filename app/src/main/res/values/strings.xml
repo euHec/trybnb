@@ -9,4 +9,6 @@
     <string name="reservas">Reservas</string>
     <string name="criar_reservas">Criar Reservas</string>
     <string name="perfil">Perfil</string>
+    <string name="email_warning">O campo Login é obrigatório</string>
+    <string name="password_warning">O campo Password é obrigatório</string>
 </resources>

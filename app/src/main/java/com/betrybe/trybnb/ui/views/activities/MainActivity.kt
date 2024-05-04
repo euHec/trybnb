@@ -2,19 +2,23 @@ package com.betrybe.trybnb.ui.views.activities
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.text.Editable
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.betrybe.trybnb.R
 import com.betrybe.trybnb.ui.views.fragments.Fragment_create_reservation
 import com.betrybe.trybnb.ui.views.fragments.Fragment_profile
 import com.betrybe.trybnb.ui.views.fragments.Fragment_reservation
 import com.google.android.material.bottomnavigation.BottomNavigationItemView
+import com.google.android.material.snackbar.Snackbar
+import com.google.android.material.textfield.TextInputLayout
+
 
 @SuppressLint("RestrictedApi")
 class MainActivity : AppCompatActivity() {
     private val menuButtonProfile: BottomNavigationItemView by lazy { findViewById(R.id.profile_menu_tem) }
     private val menuButtonReservation: BottomNavigationItemView by lazy { findViewById(R.id.reservation_menu_item) }
     private val menuButtonNewReservation: BottomNavigationItemView by lazy { findViewById(R.id.create_reservation_menu_item) }
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,5 +41,7 @@ class MainActivity : AppCompatActivity() {
                 .replace(R.id.main_fragment_container, Fragment_create_reservation())
                 .commit()
         }
+
+
     }
 }
