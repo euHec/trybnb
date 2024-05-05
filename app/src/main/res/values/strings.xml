@@ -6,9 +6,9 @@
     <string name="description_thumbnail_perfil">Thumbnail perfil</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
-    <string name="reservas">Reservas</string>
-    <string name="criar_reservas">Criar Reservas</string>
-    <string name="perfil">Perfil</string>
+    <string name="reservations">Reservas</string>
+    <string name="create_reservations">Criar Reservas</string>
+    <string name="profile">Perfil</string>
     <string name="email_warning">O campo Login é obrigatório</string>
     <string name="password_warning">O campo Password é obrigatório</string>
     <string name="login_succeeded">Login feito com sucesso!</string>
