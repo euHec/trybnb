@@ -2,17 +2,12 @@ package com.betrybe.trybnb.ui.views.activities
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.text.Editable
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.betrybe.trybnb.R
 import com.betrybe.trybnb.ui.views.fragments.Fragment_create_reservation
 import com.betrybe.trybnb.ui.views.fragments.Fragment_profile
 import com.betrybe.trybnb.ui.views.fragments.Fragment_reservation
 import com.google.android.material.bottomnavigation.BottomNavigationItemView
-import com.google.android.material.snackbar.Snackbar
-import com.google.android.material.textfield.TextInputLayout
-
 
 @SuppressLint("RestrictedApi")
 class MainActivity : AppCompatActivity() {

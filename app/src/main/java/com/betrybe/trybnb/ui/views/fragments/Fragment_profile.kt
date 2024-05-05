@@ -3,7 +3,6 @@ package com.betrybe.trybnb.ui.views.fragments
 import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Bundle
-import android.text.Editable
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -21,10 +20,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.launch
-import retrofit2.HttpException
-import java.io.IOException
 import java.lang.Exception
-import kotlin.math.log
 
 class Fragment_profile : Fragment() {
 
