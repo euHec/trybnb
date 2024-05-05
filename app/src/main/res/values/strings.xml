@@ -12,4 +12,12 @@
     <string name="email_warning">O campo Login é obrigatório</string>
     <string name="password_warning">O campo Password é obrigatório</string>
     <string name="login_succeeded">Login feito com sucesso!</string>
+    <string name="create_reservation">Criar Reserva</string>
+    <string name="first_name">Nome do hóspede</string>
+    <string name="last_name">Sobrenome do hóspede</string>
+    <string name="checkin">Checkin</string>
+    <string name="checkout">Checkout</string>
+    <string name="addtional_needs">Necessidades adicionais</string>
+    <string name="total_price">Preço total</string>
+    <string name="deposit_paid">Depósito Pago</string>
 </resources>
