@@ -28,7 +28,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:hint="@string/first_name">
+            android:hint="@string/first_name"
+            app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -41,7 +42,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:hint="@string/last_name">
+            android:hint="@string/last_name"
+            app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -55,7 +57,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             app:startIconDrawable="@drawable/ic_calendar"
-            android:hint="@string/checkin">
+            android:hint="@string/checkin"
+            app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -69,7 +72,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             app:startIconDrawable="@drawable/ic_calendar"
-            android:hint="@string/checkout">
+            android:hint="@string/checkout"
+            app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -82,7 +86,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:hint="@string/addtional_needs">
+            android:hint="@string/addtional_needs"
+            app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -99,7 +104,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             app:startIconDrawable="@drawable/ic_money"
-            android:hint="@string/total_price">
+            android:hint="@string/total_price"
+            app:errorEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
