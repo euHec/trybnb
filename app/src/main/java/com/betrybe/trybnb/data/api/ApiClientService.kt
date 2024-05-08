@@ -1,6 +1,5 @@
-package com.betrybe.trybnb.data.config
+package com.betrybe.trybnb.data.api
 
-import com.betrybe.trybnb.data.api.ApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

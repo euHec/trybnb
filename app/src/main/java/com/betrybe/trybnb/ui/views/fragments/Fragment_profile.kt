@@ -12,7 +12,7 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.betrybe.trybnb.R
 import com.betrybe.trybnb.common.ApiIdlingResource
-import com.betrybe.trybnb.data.config.ApiClientService
+import com.betrybe.trybnb.data.api.ApiClientService
 import com.betrybe.trybnb.data.models.AuthenticationRequest
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout
@@ -22,7 +22,7 @@ import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.launch
 import java.lang.Exception
 
-class Fragment_profile : Fragment() {
+class FragmentProfile : Fragment() {
 
     private val apiService = ApiClientService.instance
 
